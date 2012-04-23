@@ -161,9 +161,7 @@ def main(args):
         print '''Usage: viper.py <board> <thread> <task>\nAvalible tasks:\nbump\nget_thread'''
         exit()
 
-    board = args[0]
-    thread = args[1]
-    task = args[2]
+    board, thread, task = args
     
     if task == 'bump':
         autobump(board, thread)
