@@ -1,4 +1,4 @@
-#!/usr/bin/python
+﻿#!/usr/bin/python
 import urllib, urllib2, cookielib, re, random, time, sys
 from poster.encode import multipart_encode
 
